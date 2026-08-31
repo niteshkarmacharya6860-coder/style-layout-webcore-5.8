@@ -1,0 +1,28 @@
+@media screen and (min-width: 1024px) {
+	header {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.service__support__content {
+		display: none;
+	}
+
+	.service__support__menu ul {
+		white-space: nowrap;
+		overflow-x: scroll;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.service__support__content,
+	.header__icons__profile {
+		display: none;
+	}
+
+	.service__support__menu__content {
+		flex-direction: column;
+		gap: 20px;
+	}
+}
